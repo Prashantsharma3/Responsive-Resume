@@ -1,9 +1,59 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    list-style: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.main-content {
+  display: grid;
+  grid-template-columns: 300px 700px;
+  min-height: 1000px;
 }
 
-/* Write CSS code below */
+.left-section {
+  background-color: #f1f1f1;
+}
+
+.right-section {
+  background-color: #e2e2e2;
+}
+
+.left-content {
+  padding: 1rem;
+}
+
+.profile-image {
+  display: block;
+  margin: auto;
+  border: 5px white solid;
+  border-radius: 30%;
+  width: 60%;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.02px;
+  padding: 0.8rem;
+}
+
+.designation {
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 0.5rem;
+}
+
+.description {
+  font-size: 0.75rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.contact-item {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  padding: 0.5rem;
+}
+
+.skills {
+  font-size: 0.75rem;
